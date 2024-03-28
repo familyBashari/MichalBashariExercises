@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* רקע צבע כהה */
+    color: #fff; /* צבע טקסט לבן */
+    padding: 1rem; /* ריווח בסביבת הפינות */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* מונע קישור תחתון */
+    color: #fff; /* צבע טקסט לבן */
+    padding: 0.5rem 1rem; /* ריווח בסביבת הפינות */
+  }
+  
+  .nav-link:hover {
+    background-color: #555; /* רקע צבע קישור כהה כאשר נעטף */
+  }
