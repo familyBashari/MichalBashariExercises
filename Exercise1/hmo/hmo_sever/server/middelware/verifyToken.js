@@ -1,5 +1,6 @@
 
 import jwt  from "jsonwebtoken";
+import { passwordKey } from "../../password.js";
 
 const verifyToken = (req, res, next) => {
 
@@ -11,13 +12,8 @@ const verifyToken = (req, res, next) => {
       return res.status(403).send("auth was not success");
     }
 
-    const decoded = jwt.verify(token, "dsdddder");
+    const decoded = jwt.verify(token, passwordKey);
     req.staff = decoded;
-    // console.log(req.originalUrl);
-    // console.log(req.baseUrl);
-
-    // if(req.user.userType=="leader"&&req.originalUrl!="/courses" || req.user.userType=="student"&&req.originalUrl!="/students")
-    //  res.status(401).send("אנא התחבר שנית-התז או הסיסמא שגויים");//לשקר אין רגליים!! האקר יקר תחזור בתשובה!!!
 
   } catch (err) {
     console.log("auth was not succeed");

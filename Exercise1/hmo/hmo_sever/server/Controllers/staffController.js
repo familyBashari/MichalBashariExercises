@@ -2,6 +2,7 @@ import staffModel from "../models/staffModel.js";
 import path, { basename } from "path";
 import jwt  from "jsonwebtoken";
 import bcrypt from "bcrypt";
+import { passwordKey } from "../../password.js";
 
 export {
     addStuff,
@@ -46,7 +47,7 @@ async function login(req, res) {
               id: staff.id,
               password:staff.password,
             },
-            "dsdddder", {
+            passwordKey, {
               expiresIn: "2h",
             }
           );
