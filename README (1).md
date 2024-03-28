@@ -13,6 +13,7 @@ The system collected important details about the Corona epidemic in the context 
 at the health fund. In the future, they will be able to turn to this database in order to carry out retrievals
 Various. The exercise consists of two main parts:
 Server side and client side
+##  I did it with securing of authorization and bearer token.
 
 ## Documentation
 

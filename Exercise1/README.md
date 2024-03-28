@@ -57,9 +57,10 @@ add covid19 details
 
 - advanced technology:
   Use in some cases in Ridex to improve and streamline work processes and provide a secure and smooth user experience.
-
-- securing:
-  Secured to maintain information privacy and prevent unauthorized access
+  
+##  securing
+## Secured to maintain information privacy and prevent unauthorized access. just person from the staff can open the site because of just them signed in and login.
+## It is protected website!!!
 
 
 ## Installation
@@ -107,3 +108,6 @@ React-client side runs on port 3000 and the backend server runs on port 3001.
 ## Contact
 
 For support or further information, please contact @MichalBashari
+
+Comment:
+The page addPatient was not required in the exercise.
