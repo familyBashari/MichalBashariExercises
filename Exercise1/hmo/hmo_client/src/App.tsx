@@ -15,10 +15,6 @@ function App() {
         <RouterProvider router={router} />
       </InitializeAuth>
     </Provider>
-    {/* <Provider store={store}>
-      <RouterProvider router={router} />
-    </Provider> */}
-
     </>
   );
 }

@@ -1,9 +1,9 @@
 
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { deletePatient as deletePatientApi } from '../services/patient.service';
-import { deletePatient } from '../redux/patients/patient.slice';
-import { PatientType } from '../types/patient.types';
+import { deletePatient as deletePatientApi } from '../../services/patient.service';
+import { deletePatient } from '../../redux/patients/patient.slice';
+import { PatientType } from '../../types/patient.types';
 
 type DeletePatientProps = {
   patient: PatientType;

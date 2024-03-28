@@ -42,7 +42,7 @@ async function addCovid19Details(req, res) {
 
       const existingCovid19 = await covid19Model.findOne({ patientId: req.body.patientId });
       if (existingCovid19) return res.status(409).send('This patient has already covid 19 details!');
-
+console.log(req.body)
       const hasPatient = await patientModel.findOne({ id: req.body.patientId });
       console.log(hasPatient)
 

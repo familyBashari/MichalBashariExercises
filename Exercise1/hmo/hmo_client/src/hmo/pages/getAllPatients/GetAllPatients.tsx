@@ -11,7 +11,7 @@ import './getAllPatients.scss';
 import { PatientType } from '../../types/patient.types';
 import ImageComponent from '../../components/Image/ImageComponent';
 import UpdatePatient from '../UpdatePatient/UpdatePatient';
-import DeletePatient from '../../components/DeletePatient';
+import DeletePatient from '../../sections/patients/DeletePatient';
 import ShowDetails from '../ShowDetails';
 
 const CombinedComponent = () => {
