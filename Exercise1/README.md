@@ -109,4 +109,4 @@ React-client side runs on port 3000 and the backend server runs on port 3001.
 For support or further information, please contact @MichalBashari
 
 ## Comments
-The page addPatient was not required
+The page addPatient was not required in the exercise.
